@@ -1,5 +1,6 @@
 project(subbinary)
 
-add_executable(${PROJECT_NAME} main.cpp)
-target_link_libraries(${PROJECT_NAME} 
-    sub::lib1 sub::lib2)
+# TODO
+# create an executable file using source codes in the directory
+# hint : you might need to use target_link_libraries since purpose of this activity is to use user-created library...
+# target_link_libraries(<Target Name> <library name> ... )
